@@ -1,0 +1,22 @@
+.continer {
+  background-color: red;
+  margin-left: 10px;
+  color: white;
+}
+.producs {
+  display: flex;
+  padding: 10px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.producs::-webkit-scrollbar {
+  display: none;
+}
+.productD {
+  max-height: 250px;
+  margin-right: 10px;
+}
+.imgsmall {
+  max-height: 150px;
+  margin-right: 8px;
+}
